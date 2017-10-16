@@ -56,6 +56,9 @@ a {
     background-image: url("img/bg.jpg");
     background-size: cover;
     background-position: center -9px;
+    color: red;
+    font-size: 90px;
+    font-weight: bold;
   }
 }
 @media (min-width: 1200px) {
@@ -82,18 +85,7 @@ a {
   background-color: #6a4d38;
   color: rgba(255, 255, 255, 0.3);
 }
-.main-nav__user a {
-  display: block;
-  padding-top: 12px;
-  padding-bottom: 13px;
-  padding-left: 50px;
-  background-color: #6a4d38;
-  background-image: url("img/login.png");
-  background-repeat: no-repeat;
-  background-position: 20px 17px;
-  background-size: 15px 15px;
-  color: #fff;
-}
+
 .main-nav__toggle {
   height: 50px;
   width: 70px;

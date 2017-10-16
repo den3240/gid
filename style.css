@@ -229,12 +229,15 @@ a {
   background-color: #fff;
   color: #000;
   text-align: center;
+  background-color: #DDE1E2;
 }
 .stats__title {
   height: auto;
   font-size: 30px;
   line-height: 40px;
   padding-top: 30px;
+  text-align: center;
+  background-color: #DDE1E2;
 }
 .stats__slogan {
   height: auto;
@@ -242,6 +245,7 @@ a {
   padding-bottom: 30px;
   width: 50%;
   margin: 0 auto;
+
 }
 .stats__list {
   display: flex;

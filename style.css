@@ -192,16 +192,7 @@ a {
   .main-nav__item_active a {
     border-bottom: 2px solid #826550;
   }
-  .main-nav__user a {
-    background-color: #000;
-    font-size: 0;
-  }
-  .main-nav__user a:hover {
-    opacity: 1;
-  }
-  .main-nav__user a[href]:active {
-    color: rgba(255, 255, 255, 0.6);
-  }
+
 }
 @media (min-width: 768px) and (min-width: 768px) {
   .main-nav__wrapper {
@@ -211,10 +202,7 @@ a {
   }
 }
 @media (min-width: 1200px) {
-  .main-nav__user a {
-    font-size: inherit;
-  }
-}
+
 .stats {
   width: auto;
 }
@@ -226,6 +214,7 @@ a {
   }
 }
 .stats__header {
+
   background-color: #fff;
   color: #000;
   text-align: center;
@@ -374,3 +363,14 @@ a {
     padding-bottom: 20px;
   }
 }
+.wrapper {
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 84%;
+    margin:60px auto ;
+    max-width: 968px;
+  }
+ .milestone {
+  width: 15%;
+ } 

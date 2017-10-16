@@ -2,21 +2,65 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Samstroy</title>
+	<title>Самстрой</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<script src="less.min.js type="text/javascript"></script>
 </head>
 <body>
-	<header>
-		<section>Контактная информация</section>
-		<nav>
-			<ul>
-				<li><a href="#">Главная</a></li>
-				<li><a href="#">Наши работы</a></li>
-				<li><a href="#">Контакты</a></li>
-				<li><a href="#">О нас </a></li>
+	<header class="page-header">
+		<h1 class="visually-hidden">Услуги сантехника Самара</h1>
+		<div class="page-header__logo">
+		  <picture>
+		    <source media="(min-width:1200px) " srcset="img/logo.jpg">
+		  	<source media="(min-width:768px) " srcset="img/logo.jpg">
+			<img src="img/logo.jpg">
+		  </picture>
+		</div>
+		<nav class="main-nav main-nav_closed">
+			<button class="main-nav__toggle"></button>
+		  <div class="main-nav__wrapper">		  	
+			<ul class="main-nav__items" >
+				<li class="main-nav__item main-nav__item_active">
+					<a>Главная</a>
+				</li>
+				<li class="main-nav__item">
+					<a href="#">Наши работы</a>
+				</li>
+				<li class="main-nav__item">
+					<a href="#">Записаться</a>
+				</li>
+				<li class="main-nav__item">
+					<a href="#">Контакты</a>
+				</li>
+				<li class="main-nav__item">
+					<a href="#">О нас</a>
+				</li>
 			</ul>
+		  		
+			<ul class="main-nav__user">
+				<li><a href="#">Вход</a></li>
+			</ul>
+		  </div>		
 		</nav>
 	</header>
-	<main></main>
-	<footer></footer>
+	
+
+
+	<script >
+		var navmain = document.querySelector ('.main-nav');
+		var navtoggle = document.querySelector ('.main-nav__toggle');
+		navmain.classList.remove('main-nav_nojs');
+		navtoggle.addEventListener('click', function() {
+			if (navmain.classList.contains('main-nav_closed')) {
+				navmain.classList.remove('main-nav_closed');
+				navmain.classList.add('main-nav_opened');
+			} else {
+				navmain.classList.add('main-nav_closed');
+				navmain.classList.remove('main-nav_opened');
+			}
+		});
+
+	</script>	
 </body>
 </html>

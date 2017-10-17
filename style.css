@@ -56,7 +56,7 @@ a {
     background-image: url("img/bg.jpg");
     background-size: cover;
     background-position: center -9px;
-    color: red;
+    color: #055267;
     font-size: 90px;
     font-weight: bold;
   }
@@ -374,3 +374,30 @@ a {
  .milestone {
   width: 15%;
  } 
+  @media (min-width: 768px) {
+   .trr {
+    display: flex;
+   }
+   .tr {
+    background-color: white;
+    width: 60%;
+    transform: rotate(5deg);
+    height: 200px;
+    margin-left: -10px;
+    font-size: 0;
+   }
+   .tr1 {
+    background-color: white;
+    width: 60%;
+    transform: rotate(-5deg);
+    height: 200px;
+    margin-right: -10px;
+    font-size: 0;
+   }
+   .qq {
+    background-color: white;
+    height: 200px;
+    width: 100%;
+    margin-top: -80px;
+   }
+  } 

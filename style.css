@@ -3,7 +3,6 @@ body {
   margin: 0;
   padding: 0;
   font-size: 18px;
-  line-height: 27px;
   font-family: 'ptsans', Arial, sans-serif;
   color: #f7f4f1;
   font-style: normal;
@@ -394,10 +393,27 @@ a {
     margin-right: -10px;
     font-size: 0;
    }
-   .qq {
+    .qq {
     background-color: white;
     height: 200px;
     width: 100%;
     margin-top: -80px;
    }
+   .slider {
+    background-color: white;
+    height: 500px;
+    width: 100%;
+    padding-top: 10px;
+    margin-top: -100px;
+    }
+   .slider__list {
+    margin-top: 150px;
+    display: flex;
+    }
+    .slider__title {
+      font-size: 36px;
+      color: #075C72;
+      text-align: center;
+    }
+
   } 

@@ -376,7 +376,6 @@ a {
  .milestone {
   width: 15%;
  } 
- 
   @media (min-width: 768px) {
    .trr {
     display: flex;
@@ -403,12 +402,12 @@ a {
     width: 100%;
     margin-top: -80px;
    }
-   .slider {
+   /*.slider {
     background-color: white;
     height: 500px;
     width: 100%;
     padding-top: 10px;    
-    }
+    }*/
    .slider__list {
     margin-top: 100px;
     display: flex;
@@ -423,7 +422,7 @@ a {
       color: #075C72;
       text-align: center;
     }
-    .slider__item {
+    /*.slider__item {
       position: relative;
       display: block;      
       width: 84%;
@@ -439,7 +438,7 @@ a {
 
     .showing {
       z-index: 2;
-    }
+    }*/
   } 
   .page-footer {
     background-color: #292929;

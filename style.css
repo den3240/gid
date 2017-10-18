@@ -402,12 +402,12 @@ a {
     width: 100%;
     margin-top: -80px;
    }
-   /*.slider {
+  .slider {
     background-color: white;
     height: 500px;
     width: 100%;
     padding-top: 10px;    
-    }*/
+    }
    .slider__list {
     margin-top: 100px;
     display: flex;

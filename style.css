@@ -56,7 +56,7 @@ a {
     background-size: cover;
     background-position: center -9px;
     color: #055267;
-    font-size: 90px;
+    font-size: 60px;
     font-weight: bold;
   }
 }
@@ -66,6 +66,7 @@ a {
     height: 648px;
     background-size: cover;
     background-position: center -9px;
+    font-size: 90px;
   }
 }
 .main-nav__item a {
@@ -200,7 +201,7 @@ a {
     margin: 0 auto;
   }
 }
-@media (min-width: 1200px) {
+
 
 .stats {
   width: auto;
@@ -374,6 +375,14 @@ a {
  .milestone {
   width: 15%;
  } 
+ @media (max-width: 768px) {
+   .trr,
+   .tr,
+   .tr1,
+   .qq{
+    font-size: 0;
+   }
+ }  
   @media (min-width: 768px) {
    .trr {
     display: flex;
@@ -441,4 +450,7 @@ a {
   } 
   .page-footer {
     background-color: #292929;
+  }
+    .page-footer__phone {
+    margin-top: 40px;
   }

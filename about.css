@@ -186,3 +186,6 @@ a {
   .page-footer {
     background-color: #292929;
   }
+  .page-footer__phone {
+    margin-top: 40px;
+  }

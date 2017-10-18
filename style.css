@@ -376,8 +376,14 @@ a {
  .milestone {
   width: 15%;
  } 
+ .tr,
+ .tr1,
+ .qq,
+ .trr, {
+  font-size: 0;
+ }
   @media (min-width: 768px) {
-   .trr {
+   .trr, {
     display: flex;
    }
    .tr {

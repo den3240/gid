@@ -381,11 +381,18 @@ a {
   border-bottom: 2px solid #4E4E4E;
   text-align: center; 
  } 
+
+.milestone__list svg {
+  display: none;
+} 
 @media (min-width: 768px){
   .milestone {
     border:none;
     text-align: center; 
     margin: 5px;
+  } 
+  .milestone__list svg {
+  display: block;
   } 
 }
  @media (max-width: 1200px) {
@@ -399,6 +406,7 @@ a {
   @media (min-width: 768px) {
    .trr {
     display: flex;
+    overflow: hidden;
    }
    .tr {
     background-color: #DDE1E2;
@@ -436,6 +444,7 @@ a {
     background-color: #DDE1E2;
     margin-top: -240px;
     padding-bottom: 80px;
+    width: 100%;
   }
 }  
 @media (min-width: 768px) {

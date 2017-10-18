@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Самстрой</title>
+	<link rel="stylesheet" type="text/css" href="about.css">
+	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<script src="less.min.js type="text/javascript"></script>
+</head>
+<body>
+	<header class="page-header">
+		<h1 class="visually-hidden">Услуги сантехника Самара</h1>
+		<div class="page-header__logo">
+		  <h2>Самстрой <br>8-917-106-02-28</h2>
+			
+		</div>
+		<nav class="main-nav main-nav_closed">
+			<button class="main-nav__toggle"></button>
+		  <div class="main-nav__wrapper">		  	
+			<ul class="main-nav__items" >
+				<li  class="main-nav__item ">
+					<a href="href="index.html">Главная</a>
+				</li>
+				<li class="main-nav__item">
+					<a href="index.html/#slider1">Наши работы</a>
+				</li>
+				<li class="main-nav__item">
+					<a href="#">Записаться</a>
+				</li>
+				<li class="main-nav__item">
+					<a href="#">Контакты</a>
+				</li>
+				<li class="main-nav__item main-nav__item_active">
+					<a>О нас</a>
+				</li>
+			</ul>
+		  		
+		  </div>		
+		</nav>
+	</header>
+	<article class="about wrapper">
+		<h1>О НАС</h1>
+		<p>
+			С 2009 года Самстрой занимается оказанием сантехнических услуг в Самаре и пригороде. Наши специалисты обладают всеми необходимыми навыками и оснащены всем необходимым современным инструментом  и оборудованием, для оказания услуг, связанных с выполнением как разовых сантехнических работ, так и полного цикла услуг на объекте. Мы выполняем сантехнические работы по отоплению, водоснабжению и канализации любого уровня сложности, оперативно, надежно и качественно.
+		</p>
+	</article>
+	<section class="map wrapper">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2385.9016684913045!2d50.22325931618781!3d53.273381479963724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x41661854410dbf71%3A0x5bb2bdb1a55fbfff!2z0JTQtdC80L7QutGA0LDRgtC40YfQtdGB0LrQsNGPINGD0LsuLCAzNCwg0KHQsNC80LDRgNCwLCDQodCw0LzQsNGA0YHQutCw0Y8g0L7QsdC7LiwgNDQzMTIy!5e0!3m2!1sru!2sru!4v1508317001985" width="1200" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+	</section>
+	<footer class="page-footer wrapper">
+		<div class="page-footer__contacts">
+			<h2>Самстрой</h2>
+			г.Самара ул.Демократическая 34<br>
+			<br>
+			8(917)106-02-28
+		</div>
+		<div class="D&L">
+			Разработано:<br>
+			<br>
+			<img src="img/logo.png" width="175" height="175">			
+		</div>		
+	</footer>
+	<script >
+		var navmain = document.querySelector ('.main-nav');
+		var navtoggle = document.querySelector ('.main-nav__toggle');
+		navmain.classList.remove('main-nav_nojs');
+		navtoggle.addEventListener('click', function() {
+			if (navmain.classList.contains('main-nav_closed')) {
+				navmain.classList.remove('main-nav_closed');
+				navmain.classList.add('main-nav_opened');
+			} else {
+				navmain.classList.add('main-nav_closed');
+				navmain.classList.remove('main-nav_opened');
+			}
+		});
+
+	</script>
+
+
+</body>
+</html>

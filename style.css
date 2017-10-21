@@ -8,6 +8,15 @@ body {
   font-style: normal;
   background-color: #292929;
 }
+@media (min-width: 768px){
+  body {
+    background-color: #000;
+    background-image: url("img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center -9px;
+  }
+}
 img {
   max-width: 100%;
   height: auto;
@@ -133,19 +142,19 @@ a {
 }
 @media (min-width: 768px){
   .page-header {
-    background-color: #000;
+    /*background-color: #000;
     background-image: url("img/bg.jpg");
     background-size: cover;
-    background-position: center -9px;
+    background-position: center -9px;*/
   }
   .page-header__logo {
     width: 100%;
     height: 400px;
     order: 2;
-    background-color: #000;
+   /* background-color: #000;
     background-image: url("img/bg.jpg");
     background-size: cover;
-    background-position: center -9px;
+    background-position: center -9px;*/
     color: #055267;
     font-size: 90px;
     font-weight: bold;
@@ -387,6 +396,7 @@ a {
 } 
 @media (min-width: 768px){
   .milestone {
+    padding-bottom: 80px;
     border:none;
     text-align: center; 
     margin: 5px;
@@ -404,7 +414,7 @@ a {
    }
  }  
   @media (min-width: 768px) {
-   .trr {
+   /*.trr {
     display: flex;
     overflow: hidden;
    }
@@ -425,7 +435,7 @@ a {
     font-size: 0;
    }
 
-} 
+} */
 
 
 .slider__title {
@@ -441,7 +451,7 @@ a {
 }
 @media (min-width: 768px) {
   .slider {
-    background-color: #DDE1E2;
+    /*background-color: #DDE1E2;*/
     margin-top: -240px;
     padding-bottom: 80px;
     width: 100%;
@@ -454,7 +464,7 @@ a {
    }
 }
   .page-footer {
-    background-color: #292929;
+   /* background-color: #292929;*/
   }
 
  .we{

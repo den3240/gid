@@ -8,6 +8,11 @@ body {
   font-style: normal;
   background-color: #292929;
 }
+@media (min-width: 768px){
+  body {
+    background-image: url(img/bg2.jpg)
+  }
+}
 img {
   max-width: 100%;
   height: auto;
@@ -133,25 +138,29 @@ a {
 }
 @media (min-width: 768px){
   .page-header {
-    background-color: #000;
-    background-image: url("img/bg.jpg");
-    background-size: cover;
-    background-position: center -9px;
+    background-color: #292929;
   }
   .page-header__logo {
     width: 100%;
-    height: 400px;
+    height: 70vh;
     order: 2;
-    background-color: #000;
-    background-image: url("img/bg.jpg" ) ;
-    background-size: cover;
-    background-position: center -9px;
+    background-color: #292929;
+    background-image: url("img/slide5.jpg") ;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
     color: #055267;
-    font-size: 90px;
+    font-size: 30px;
     font-weight: bold;
+  }
+  .page-header__title {
+    font-size: 0px;
+    color: #FFCD00;
+     margin-bottom: 0;
   }
   .main-nav__toggle {
     display: none;
+
   }
   .main-nav {
     background-color: #000;
@@ -462,6 +471,8 @@ a {
 }
   .page-footer {
     background-color: #292929;
+    background-image: none;
+    width: 100%;
   }
 
  .we{
@@ -475,6 +486,17 @@ a {
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
+    flex-wrap: wrap;
+    background-image: none;
+    background-color: #292929;
+  }
+  .contacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    background-image: none;
+    background-color: #292929;    
   }
   .page-footer__we {
     display: flex;
